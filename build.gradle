@@ -22,3 +22,23 @@ jar {
     attributes 'Main-Class': 'org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler'
   }
 }
+
+/*
+
+buildscript {
+  repositories {
+    jcenter()
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "gradle.plugin.com.palantir.graal:gradle-graal:0.3.0-7-gdb167e6"
+  }
+}
+
+graal {
+  mainClass 'com.palantir.test.Main'
+  outputName 'hello-world'
+  graalVersion '1.0.0-rc5'
+}*/
